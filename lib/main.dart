@@ -21,6 +21,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(title: 'Weight Tracker', home: Home());
+    return const GetMaterialApp(title: 'Weight', home: Home());
   }
 }

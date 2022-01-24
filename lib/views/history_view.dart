@@ -22,7 +22,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
           mainAxisSize: MainAxisSize.min,
           children: [
             IconButton(
-              icon: const Icon(Icons.home),
+              icon: Icon(Icons.home),
               onPressed: () {
                 _controller.addRecord();
               },
